@@ -11,7 +11,7 @@ let dateC = "23/02/2021";
  * @param {String} dateB
  * @return {int} nombre de jour entre les 2 dates
  */
-function diffJour(dateA, dateB){
+function diffJour(dateA, dateB) {
    var aSplitted = dateA.split("/");
    var aData = {
       jour: Number(aSplitted[0]),
@@ -31,13 +31,13 @@ function diffJour(dateA, dateB){
    var diffJour = 0;
 
    // On pars de la date la plus grande
-   if(aData.annee > bData.annee) {
+   if (aData.annee > bData.annee) {
       diffAnnee = aData.annee - bData.annee;
       diffMois = aData.mois - bData.mois;
       diffJour = aData.jour - bData.jour;
-   }else{
+   } else {
       diffAnnee = bData.annee - aData.annee
-      diffMois = bData.mois -  aData.mois
+      diffMois = bData.mois - aData.mois
       diffJour = bData.jour - aData.jour
    }
    var nbJour = (diffAnnee * 365) + (diffMois * 30) + diffJour;
@@ -47,7 +47,7 @@ function diffJour(dateA, dateB){
 console.log("\n------------- DATES ------------");
 
 var diffAB = diffJour(dateA, dateB);
-console.log("Diff entre "+dateA+" et "+dateB+" : "+diffAB+" jours");
+console.log("Diff entre " + dateA + " et " + dateB + " : " + diffAB + " jours");
 
 var diffAC = diffJour(dateA, dateC);
-console.log("Diff entre "+dateA+" et "+dateC+" : "+diffAC+" jours");
+console.log("Diff entre " + dateA + " et " + dateC + " : " + diffAC + " jours");

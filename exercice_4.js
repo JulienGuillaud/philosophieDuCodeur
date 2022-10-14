@@ -17,8 +17,8 @@ function hash(str) {
 }
 
 
-class Transaction{
-   constructor(id, montant, idCommande, typePaiement, token){
+class Transaction {
+   constructor(id, montant, idCommande, typePaiement, token) {
       this.id = id;
       this.montant = montant;
       this.idCommande = idCommande;
@@ -30,7 +30,7 @@ class Transaction{
     * 
     * @returns {Object} transaction
     */
-   getTransaction(){
+   getTransaction() {
       return {
          id: this.id,
          montant: this.montant,
@@ -43,13 +43,13 @@ class Transaction{
     * 
     * @returns {String} token
     */
-   getToken(){
+   getToken() {
       return this.token
    }
 }
 
-class TransactionListBuilder{
-   constructor(id, montant, idCommande, typePaiement, firstToken){
+class TransactionListBuilder {
+   constructor(id, montant, idCommande, typePaiement, firstToken) {
       var newTransaction = new Transaction(id, montant, idCommande, typePaiement, firstToken);
       // transactionArray.push(newTransaction);
       this.transactionArray = [newTransaction];
@@ -63,12 +63,12 @@ class TransactionListBuilder{
     * @param {int} typePaiement
     * @param {boolean} forceInvalidToken
     */
-   addTransaction(id, montant, idCommande, typePaiement, forceInvalidToken){
+   addTransaction(id, montant, idCommande, typePaiement, forceInvalidToken) {
       forceInvalidToken = forceInvalidToken || false;
       // Generer hash
       var lastTransactionHash = this.transactionArray[this.transactionArray.length - 1].getToken();
-      var newHashToken = hash(id+montant+idCommande+typePaiement+lastTransactionHash);
-      if(forceInvalidToken) newHashToken = "INVALID_TOKEN";
+      var newHashToken = hash(id + montant + idCommande + typePaiement + lastTransactionHash);
+      if (forceInvalidToken) newHashToken = "INVALID_TOKEN";
       var newTransaction = new Transaction(id, montant, idCommande, typePaiement, newHashToken);
       this.transactionArray.push(newTransaction);
    }
@@ -77,7 +77,7 @@ class TransactionListBuilder{
     * 
     * @returns {Array} transactionArray
     */
-   getTransactionlist(){
+   getTransactionlist() {
       return this.transactionArray
    }
 }
@@ -87,16 +87,16 @@ class TransactionListBuilder{
  * @param {Array.<Transaction>} tabTransactions 
  * @returns 
  */
-function valideTransactions(tabTransactions){
+function valideTransactions(tabTransactions) {
    transactionsInvalides = [];
-   if(tabTransactions.length > 0) {
-      for(let i = tabTransactions.length -1; i >= 0; i--) {
-         if(i > 0){
-            let tokenCalcule = hash(tabTransactions[i].id+tabTransactions[i].montant+tabTransactions[i].idCommande+tabTransactions[i].typePaiement+tabTransactions[i-1].getToken())
-            if(tabTransactions[i].getToken() != tokenCalcule){
+   if (tabTransactions.length > 0) {
+      for (let i = tabTransactions.length - 1; i >= 0; i--) {
+         if (i > 0) {
+            let tokenCalcule = hash(tabTransactions[i].id + tabTransactions[i].montant + tabTransactions[i].idCommande + tabTransactions[i].typePaiement + tabTransactions[i - 1].getToken())
+            if (tabTransactions[i].getToken() != tokenCalcule) {
                transactionsInvalides.push(tabTransactions[i]);
             }
-         }else{
+         } else {
             break;
          }
       }
