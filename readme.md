@@ -75,6 +75,10 @@ Mes réponses :
 
 - Mauvaises pratiques :
 
+   > Faire des tests unitaires incohérents
+
+   > Mettre que des ``var`` partout sans réfléchir a la portée des variables
+
    > Faire des heures supp non payés🙃
 
    > Ne pas prendre de pause (le repos c'est important)
