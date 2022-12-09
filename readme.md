@@ -109,3 +109,23 @@ Mes réponses :
    > Ne pas écouter les commentaires et les suggestions des utilisateurs : <br>
    Cela peut entraîner un logiciel qui ne répond pas aux besoins réels des utilisateurs finaux, ce qui peut entraîner une mauvaise utilisation et une mauvaise réputation.
 
+
+## Interview
+
+Pour cet exercice, j'ai interviewé un collégue développeur web JavaScript (rapidement pendant une pause repas)
+
+Dans cette interview, on a discuté des meilleures pratiques en matière de développement logiciel (les bonnes et mauvaises pratiques de l'exercice précédent ont été extraits de cette conversation que j'ai eu avec lui).
+Voici un bref résumé des points les plus importants qu'on a abordé
+<br><br>
+
+Selon lui, la collaboration et la communication sont les principaux éléments pour réussir dans ce domaine.
+
+Travailler en équipe et partager régulièrement les progrès et les idées avec les autres membres de l'équipe peut aider à résoudre les problèmes plus rapidement et à produire un meilleur logiciel. Cela peut également aider à éviter les erreurs coûteuses qui peuvent survenir lorsque les développeurs travaillent de manière isolée.
+
+Il a insisté sur l'écriture de code propre et bien organisé. Un code bien structuré et facile à comprendre peut faciliter la maintenance et l'amélioration du logiciel à long terme, ainsi que la collaboration avec d'autres développeurs. Cela peut également aider à détecter et à corriger les bugs plus rapidement.
+
+Il a également souligné l'importance de tester le code avant de le déployer en production. Cela peut être fait en utilisant des outils automatisés pour détecter les erreurs et les problèmes potentiels. Cela peut éviter les retards et les coûts supplémentaires associés à la correction de bugs une fois que le logiciel est déjà en production.
+
+En plus de ces pratiques, il a recommandé d'être ouvert à l'apprentissage et à l'expérimentation. Le domaine du développement logiciel évolue constamment, il est donc important de rester à jour sur les dernières tendances et technologies. Cela peut aider les développeurs à améliorer leurs compétences et à rester compétitifs dans l'industrie.
+
+En résumé, pour être un bon développeur de logiciel, il est important de travailler en équipe, d'écrire du code propre et bien organisé, de tester le code avant de le déployer, et d'être ouvert à l'apprentissage et aux nouvelles technologies
