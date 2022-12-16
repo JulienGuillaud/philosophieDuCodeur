@@ -2,9 +2,9 @@
 
 Pour ce cours, les consignes étaient :
 
-1. Réaliser une fonction de tri d’untableaudevaleurnumériquepar ordre croissant ou décroissant sans utiliser de fonction par défaut des langages
+1. Réaliser une fonction de tri d’un tableau de valeur numérique par ordre croissant ou décroissant sans utiliser de fonction par défaut des langages
 
-   <pre>➢ triTableau(monTableau,TRI_CROISSANT|TRI_DECROISSANT)returntableauTrié;</pre>
+   <pre>➢ triTableau(monTableau,TRI_CROISSANT|TRI_DECROISSANT) return tableauTrié;</pre>
 
    [Mon exercice 1](exercice_1.js)
 
