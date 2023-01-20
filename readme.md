@@ -122,9 +122,9 @@ Selon lui, la collaboration et la communication sont les principaux éléments p
 
 Travailler en équipe et partager régulièrement les progrès et les idées avec les autres membres de l'équipe peut aider à résoudre les problèmes plus rapidement et à produire un meilleur logiciel. Cela peut également aider à éviter les erreurs coûteuses qui peuvent survenir lorsque les développeurs travaillent de manière isolée.
 
-Il a insisté sur l'écriture de code propre et bien organisé. Un code bien structuré et facile à comprendre peut faciliter la maintenance et l'amélioration du logiciel à long terme, ainsi que la collaboration avec d'autres développeurs. Cela peut également aider à détecter et à corriger les bugs plus rapidement.
+Il a insisté sur l'écriture de code propre et bien organisé. Un code bien structuré et facile à comprendre peut faciliter la maintenance et l'amélioration du logiciel à long terme, ainsi que la collaboration avec d'autres développeurs. Notamment pour les nouveaux employés pour mieux comprendre et s'imprégner du code. (comme moi lorsque j'ai rejoint l'entreprise) Cela peut également aider à détecter et à corriger les bugs plus rapidement.
 
-Il a également souligné l'importance de tester le code avant de le déployer en production. Cela peut être fait en utilisant des outils automatisés pour détecter les erreurs et les problèmes potentiels. Cela peut éviter les retards et les coûts supplémentaires associés à la correction de bugs une fois que le logiciel est déjà en production.
+Il a également souligné l'importance de tester le code avant de le déployer en production. Cela peut être fait en utilisant des outils automatisés pour détecter les erreurs et les problèmes potentiels. Cela peut éviter les retards et les coûts supplémentaires associés à la correction de bugs une fois que le logiciel est déjà en production. Ce qui malheureusement arrive assez souvent.
 
 En plus de ces pratiques, il a recommandé d'être ouvert à l'apprentissage et à l'expérimentation. Le domaine du développement logiciel évolue constamment, il est donc important de rester à jour sur les dernières tendances et technologies. Cela peut aider les développeurs à améliorer leurs compétences et à rester compétitifs dans l'industrie.
 
